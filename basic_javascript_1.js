@@ -1,0 +1,1 @@
+alert("This is the greatest box ever created!\nYou better bow to this message box!!\nClick to close.......");

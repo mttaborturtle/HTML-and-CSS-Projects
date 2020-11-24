@@ -1,0 +1,11 @@
+p {
+    color: turquoise;
+    background: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    text-shadow: 2px 2px #00FF00;
+}

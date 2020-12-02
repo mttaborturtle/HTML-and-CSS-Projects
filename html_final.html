@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            filter: sepia(50%);
+            border: 2px solid black;
+            border-radius: 25px;
+        }
+        p {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        p:hover {
+            color: rgb(143, 37, 175);
+        }
+
+        table {
+            border: 1px solid rgb(10, 1, 1);
+            width: 50%;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        td:hover {
+            background-color: yellow;
+            color: black;
+        }
+
+        tr, th {
+            background-color: black;
+            color: cornsilk;
+        }
+
+        tr, td {
+            background-color: darkgreen;
+            color: white;
+        }
+
+        .centered {
+            position: absolute;
+            top: 75%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: xx-large;
+            font-weight: bold;
+            color: black;
+        }
+
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            background-color: #f1f1f1;
+        }
+
+        li a {
+            display: block;
+            color: rgb(74, 180, 241);
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #555;
+            color: white;
+        }
+
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 200px; 
+        }
+
+            .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+    </style>
+    </head>
+    <body>
+
+        <nav>
+            <ul>
+          <li><a href="assignment.html">Home</a></li>
+          <li><a href="dog.html">About</a></li>
+          <li><a href="dog_video.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="row">
+            <div class="column" style="background-color:rgb(50, 219, 241);">
+              <h2 style="color:rgb(14, 65, 71);">This is the Left Column</h2>
+              <p>I am writing some stuff here...</p>
+            </div>
+            <div class="column" style="background-color:rgb(86, 180, 180);">
+                <h2 style="color:rgb(9, 54, 59);">This is the Right Column</h2>
+              <p>More stuff goes in here...</p>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <img src="myPup.jpg" alt="Stella" style="width:50%;">
+            <div class="centered">Stella Blue</div>
+        </div>
+
+
+
+        <footer>
+            <p>Brought to you by: MtTaborTurtle &copy;2020</p>
+          </footer>
+
+        <table>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Bill</td>
+            <td>Mitcheson</td>
+            <td>48</td>
+        </tr>
+        <tr>
+            <td>Stella Blue</td>
+            <td>Mitcheson</td>
+            <td>1.5</td>
+        </tr>
+        </table>
+
+
+    </body>
+</html>
